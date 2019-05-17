@@ -6,12 +6,14 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+
+    TextView tv_url;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
-        ((TextView)findViewById(R.id.tv_url)).setText(BuildConfig.API_SERVER_URL);
+        tv_url = findViewById(R.id.tv_url);
+        tv_url.setText(BuildConfig.FLAVOR + BuildConfig.BUILD_TYPE + "master");
     }
 }

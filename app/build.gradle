@@ -41,12 +41,16 @@ android {
     }
 
     productFlavors {
-        product{
-            buildConfigField 'String', 'API_SERVER_URL', PRODUCT_URL
+        pro {
+//            buildConfigField 'String', 'API_SERVER_URL', PRODUCT_URL
         }
 
-        dev{
-            buildConfigField 'String', 'API_SERVER_URL', DEV_URL
+        dev {
+//            buildConfigField 'String', 'API_SERVER_URL', DEV_URL
+        }
+
+        uat {
+
         }
     }
 }
