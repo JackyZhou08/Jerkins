@@ -14,6 +14,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         tv_url = findViewById(R.id.tv_url);
-        tv_url.setText(BuildConfig.FLAVOR + BuildConfig.BUILD_TYPE + "master");
+        tv_url.setText(BuildConfig.FLAVOR + BuildConfig.BUILD_TYPE + "develop");
     }
 }
