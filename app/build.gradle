@@ -10,6 +10,9 @@ android {
         versionName "1.0.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         flavorDimensions "versioName"
+
+        buildConfigField "String","PRODUCT_URL","${PRODUCT_URL}"
+        buildConfigField "String","DEV_URL","${DEV_URL}"
     }
 
 
@@ -50,7 +53,6 @@ android {
         }
 
         uat {
-
         }
     }
 }
