@@ -1,0 +1,6 @@
+ext {
+    app = [
+            PRODUCT_URL: "${PRODUCT_URL}",
+            DEV_URL    : "${DEV_URL}",
+    ]
+}
