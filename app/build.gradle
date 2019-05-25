@@ -11,8 +11,8 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         flavorDimensions "versioName"
 
-        buildConfigField "String","PRODUCT_URL","\"${PRODUCT_URL}\""
-        buildConfigField "String","DEV_URL","\"${DEV_URL}\""
+        buildConfigField "String","PRODUCT_URL","\"${rootProject.ext.app.PRODUCT_URL}\""
+        buildConfigField "String","DEV_URL","\"${rootProject.ext.app.DEV_URL}\""
     }
 
 
